@@ -1,0 +1,37 @@
+{
+  "version": "0.1.0-*",
+
+  "testRunner": "xunit",
+
+  "dependencies": {
+    "Cake.Core": "0.16.2",
+    "Cake.Pact": "0.1.0-*",
+    "Cake.Pact.TestData": "0.1.0-*",
+    "Cake.Testing": "0.16.2",
+    "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "Flurl.Http": "1.0.3",
+    "Moq": "4.6.38-alpha",
+    "NETStandard.Library": "1.6.0",
+    "Shouldly": "2.8.2",
+    "StyleCop.Analyzers": "1.0.0",
+    "TestStack.BDDfy": "4.3.2",
+    "xunit": "2.2.0-beta3-build3402"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        }
+      }
+    }
+  },
+
+  "buildOptions": {
+    "additionalArguments": [
+      "/ruleset:../ruleset.ruleset"
+    ]
+  }
+}
